@@ -1,0 +1,155 @@
+/**
+ * @name _Meg923a_v2
+ * @author megumi923
+ * @authorId 328208492513067008
+ * @description Let's see how long it takes Discord to break this again
+ * @version 2.02
+ * @source https://github.com/Meg923a/Meg923a.theme
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+
+:root {
+	--app-bg: url(https://raw.githubusercontent.com/Meg923a/Meg923a.theme/master/bg.png);
+	--app-blur: 2px;
+	--app-margin: 24px;
+	--app-radius: 8px; /*	-	*/
+	
+	--accent-hue: 306;
+	--accent-saturation: 70%;
+	--accent-lightness: 75%;
+	--accent-opacity: 0.5;
+	--accent-text-color: rgb(235, 239, 252); /*	-	*/
+
+	--sidebar-color: rgba(0,0,0,0.3);
+	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+
+	--message-color: rgba(0, 0, 0, 0);
+	--message-radius: 8px;
+	--message-padding-top: 0px;
+	--message-padding-side: 0px; /*	-	*/
+	
+	--reply-hue: 306;
+	--reply-saturation: 77.4%;
+	--reply-lightness: 61.8%;
+	--reply-opacity: 1; /*	-	*/
+
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
+
+	--card-color: rgba(0,0,0,0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+	
+	--button-height: 32px;
+	--button-padding: 0 16px;
+	--button-action-color: #000;
+	--button-radius: 16px; /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #666666; /*	-	*/
+
+	--background-modifier-hover: rgba(255,255,255,0.075);
+	--background-modifier-selected: rgba(255,255,255,0.125);
+
+	--avatar-speaking-color: rgb(67, 181, 129);
+	--url-color: rgb(229, 198, 52);
+
+	--notice-color: rgb(211, 61, 61);
+	--notice-color-rgba: rgba(211, 61, 61, var(--accent-opacity));
+
+	--closed-folder-background-color: rgba(61, 67, 126, 0.5);
+	--server-badge-icon: rgb(35 165 89);
+}
+
+/* chat room */
+.voiceUser__0470a {
+    z-index: 1;
+}
+.voiceUser__0470a .content_b60865 {
+    border-radius: 3px;
+    transition: all 0.15s ease-in-out;
+}
+.voiceUser__0470a .avatarSpeaking_c95053 {
+    position: relative;
+    transition: all 0.1s ease-in-out;
+}
+.voiceUser__0470a .avatarSpeaking_c95053:after {
+    content: "";
+    position: absolute;
+    height: 1.7em;
+    background: linear-gradient(to right, var(--avatar-speaking-color) 10%, transparent);
+    opacity: 0.5;
+    transition: all 0.1s ease-in-out, width 0.15s ease-in-out;
+    pointer-events: none;
+    z-index: -1;
+    border-radius: 999px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.voiceUser__0470a .avatarSpeaking_c95053 {
+    box-shadow: 0 0 0 2px var(--avatar-speaking-color), inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.voiceUser__0470a .avatarSpeaking_c95053:after {
+    top: -2px;
+    bottom: -2px;
+    width: 150px;
+}
+
+/* chat text */
+.username_d30d99, .timestamp_cdbd93 *, .messageContent__21e69 *, .grid_c7c4e6 *, .editor__66464 * {
+	text-shadow: 0 0 5px black, 0 0 5px black, 2px 0 5px black,  2px 0 5px black, 2px 0 5px black;
+}
+
+/* link color */
+.section__6f61e a, .messageContent__21e69 a, .grid_c7c4e6 a, .fakeLink__57dfc {
+	color: var(--url-color);
+}
+
+/* chat unread */
+.isUnread__6f880 {
+    border-color: var(--notice-color);
+}
+.isUnread__6f880 .unreadPill__715fc {
+	background-color: var(--notice-color);
+}
+.divider_b9338f {
+	color: var(--notice-color);
+}
+.isUnread__6f880 .unreadPillCapStroke__12c0b {
+    color: var(--notice-color);
+    fill: var(--notice-color);
+}
+.newMessagesBar__8b6d7, .jumpToPresentBar__0ff7f {
+    background-color: var(--notice-color-rgba);
+}
+
+/* avatar */
+.avatar_f8541f, .avatar__08316 {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.wrapper_edb6e0, .embedAuthorIcon__6b055 {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+/* server list */
+.closedFolderIconWrapper__7321f {
+    background-color: var(--closed-folder-background-color);
+}
+.numberBadge__50328  {
+	background-color: var(--notice-color) !important;
+}
+.iconBadge_fdf33a  {
+	background-color: var(--server-badge-icon);
+}
+.childWrapper__01b9c, .circleIconButton_d8df29 {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.mention__1afd3 {
+	background-color: var(--notice-color);
+}
