@@ -11,11 +11,18 @@
 
 :root {
 	--app-bg: url(https://raw.githubusercontent.com/Meg923a/Meg923a.theme/master/bg.png);
+	--app-opacity: 1;
+	--accent-hue: 306;
+	/*
+	--app-bg: url(https://nakuruaitsuki.com/images/card.jpg);
+	--app-opacity: 0.5;
+	--accent-hue: 236;
+	*/
+
 	--app-blur: 2px;
 	--app-margin: 24px;
 	--app-radius: 8px; /*	-	*/
 	
-	--accent-hue: 306;
 	--accent-saturation: 70%;
 	--accent-lightness: 75%;
 	--accent-opacity: 0.5;
@@ -65,6 +72,14 @@
 
 	--closed-folder-background-color: rgba(61, 67, 126, 0.5);
 	--server-badge-icon: rgb(35 165 89);
+}
+
+/* background */
+.appMount_fae9dd {
+	background: linear-gradient(rgba(0, 0, 0, calc(1 - var(--app-opacity))), rgba(0, 0, 0, calc(1 - var(--app-opacity)))), var(--app-bg) !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	background-size: cover !important;
 }
 
 /* chat room */
