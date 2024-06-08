@@ -2,7 +2,7 @@
 
 A Transparent, highly customizable discord theme.
 
-<img src="discord_theme_demo.png" alt="drawing" width="800"/>
+<img src="discord_theme_demo.png" alt="demo" width="800"/>
 
 ### Installation:
 - install [BetterDiscord](https://betterdiscord.app/)
