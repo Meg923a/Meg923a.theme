@@ -1,5 +1,70 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
+:root {
+	--app-bg: url(https://nakuruaitsuki.com/images/card.jpg);
+	--app-opacity: 0.5;
+	--accent-hue: 236;
+	/* 
+	--app-bg: url(https://raw.githubusercontent.com/Meg923a/Meg923a.theme/master/bg.png);
+	--app-opacity: 1;
+	--accent-hue: 306;
+	*/
+
+	--app-blur: 2px;
+	--app-margin: 24px;
+	--app-radius: 8px; /*	-	*/
+	
+	--accent-saturation: 70%;
+	--accent-lightness: 75%;
+	--accent-opacity: 0.5;
+	--accent-text-color: rgb(235, 239, 252); /*	-	*/
+
+	--sidebar-color: rgba(0,0,0,0.3);
+	--main-content-color: rgba(0,0,0,0.2); /*	-	*/
+
+	--message-color: rgba(0, 0, 0, 0);
+	--message-radius: 8px;
+	--message-padding-top: 0px;
+	--message-padding-side: 0px; /*	-	*/
+	
+	--reply-hue: 306;
+	--reply-saturation: 77.4%;
+	--reply-lightness: 61.8%;
+	--reply-opacity: 1; /*	-	*/
+
+	--textarea-color: 255,255,255;
+	--textarea-alpha: 0.1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
+
+	--card-color: rgba(0,0,0,0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+	
+	--button-height: 32px;
+	--button-padding: 0 16px;
+	--button-action-color: #000;
+	--button-radius: 16px; /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #666666; /*	-	*/
+
+	--background-modifier-hover: rgba(255,255,255,0.075);
+	--background-modifier-selected: rgba(255,255,255,0.125);
+
+	--avatar-speaking-color: rgb(67, 181, 129);
+	--url-color: rgb(229, 198, 52);
+
+	--notice-color: rgb(211, 61, 61);
+	--notice-color-rgba: rgba(211, 61, 61, var(--accent-opacity));
+
+	--closed-folder-background-color: rgba(61, 67, 126, 0.5);
+	--server-badge-icon: rgb(35 165 89);
+}
+
 /* background */
 #app-mount {
 	background: linear-gradient(rgba(0, 0, 0, calc(1 - var(--app-opacity))), rgba(0, 0, 0, calc(1 - var(--app-opacity)))), var(--app-bg) !important;
