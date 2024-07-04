@@ -10,10 +10,14 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
 
 :root {
-	--app-bg: url(https://nakuruaitsuki.com/images/card.jpg);
+	--app-bg: url(https://786637a79ba4ef61.main.jp/wp-content/uploads/2024/07/nakuru2nd_Mirlatry_flyer_ver2_72ppi.jpg);
 	--app-opacity: 0.5;
 	--accent-hue: 236;
 	/* 
+	--app-bg: url(https://nakuruaitsuki.com/images/card.jpg);
+	--app-opacity: 0.5;
+	--accent-hue: 236;
+
 	--app-bg: url(https://raw.githubusercontent.com/Meg923a/Meg923a.theme/master/bg.png);
 	--app-opacity: 1;
 	--accent-hue: 306;
@@ -117,7 +121,7 @@
 }
 
 /* chat text */
-.username_ec86aa, .timestamp_ec86aa *, .messageContent_ec86aa *, .grid_ad0b71 *, .editor_a552a6 * {
+.username_f9f2ca, .timestamp_f9f2ca *, .messageContent_f9f2ca *, .repliedMessage_f9f2ca, .grid_ad0b71 *, .editor_a552a6 * {
 	text-shadow: 0 0 5px black, 0 0 5px black, 2px 0 5px black,  2px 0 5px black, 2px 0 5px black;
 }
 
