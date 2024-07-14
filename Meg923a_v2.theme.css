@@ -126,22 +126,22 @@
 }
 
 /* link color */
-.section_d7a21f a, .messageContent_f9f2ca a, .grid_ad0b71 a, .fakeLink_cdb578 {
+.section_d7a21f a, .messageContent_f9f2ca a, .grid_ad0b71 a, .markup_f8f345 a, .fakeLink_cdb578 {
 	color: var(--url-color);
 }
 
 /* chat unread */
-.isUnread_fc5f50 {
+.isUnread_c2654d {
     border-color: var(--notice-color);
 }
-.isUnread_fc5f50 .unreadPill_fc5f50 {
+.isUnread_c2654d .unreadPill_c2654d {
 	background-color: var(--notice-color);
 }
-.isUnread_fc5f50 .unreadPillCapStroke_fc5f50 {
+.isUnread_c2654d .unreadPillCapStroke_c2654d {
 	color: var(--notice-color);
     fill: var(--notice-color);
 }
-.divider_fc5f50 {
+.divider_c2654d {
 	color: var(--notice-color);
 }
 .newMessagesBar_cf58b5, .jumpToPresentBar_cf58b5 {
@@ -149,7 +149,7 @@
 }
 
 /* avatar */
-.avatar_cdc675, .avatar_ec86aa {
+.avatar_cdc675, .avatar_f9f2ca {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .wrapper_c51b4e, .embedAuthorIcon_ad0b71 {
