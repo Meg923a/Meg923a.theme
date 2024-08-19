@@ -87,18 +87,18 @@
 }
 
 /* chat room */
-.voiceUser_cdc675 {
+.voiceUser_d80634 {
     z-index: 1;
 }
-.voiceUser_cdc675 .content_cdc675 {
+.voiceUser_d80634 .content_d80634 {
     border-radius: 3px;
     transition: all 0.15s ease-in-out;
 }
-.voiceUser_cdc675 .avatarSpeaking_cdc675 {
+.voiceUser_d80634 .avatarSpeaking_d80634 {
     position: relative;
     transition: all 0.1s ease-in-out;
 }
-.voiceUser_cdc675 .avatarSpeaking_cdc675:after {
+.voiceUser_d80634 .avatarSpeaking_d80634:after {
     content: "";
     position: absolute;
     height: 1.7em;
@@ -111,22 +111,22 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-.voiceUser_cdc675 .avatarSpeaking_cdc675 {
+.voiceUser_d80634 .avatarSpeaking_d80634 {
     box-shadow: 0 0 0 2px var(--avatar-speaking-color), inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
-.voiceUser_cdc675 .avatarSpeaking_cdc675:after {
+.voiceUser_d80634 .avatarSpeaking_d80634:after {
     top: -2px;
     bottom: -2px;
     width: 150px;
 }
 
 /* chat text */
-.username_f9f2ca, .timestamp_f9f2ca *, .messageContent_f9f2ca *, .repliedMessage_f9f2ca, .grid_ad0b71 *, .editor_a552a6 * {
+.username_f9f2ca, .timestamp_f9f2ca *, .messageContent_f9f2ca *, .repliedMessage_f9f2ca, .grid_b0068a *, .editor_a552a6 * {
 	text-shadow: 0 0 5px black, 0 0 5px black, 2px 0 5px black,  2px 0 5px black, 2px 0 5px black;
 }
 
 /* link color */
-.section_d7a21f a, .messageContent_f9f2ca a, .grid_ad0b71 a, .markup_f8f345 a, .fakeLink_cdb578 {
+.section_d7a21f a, .messageContent_f9f2ca a, .grid_b0068a a, .markup_f8f345 a, .fakeLink_cdb578 {
 	color: var(--url-color);
 }
 
@@ -149,10 +149,10 @@
 }
 
 /* avatar */
-.avatar_cdc675, .avatar_f9f2ca {
+.avatar_d80634, .avatar_f9f2ca {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.wrapper_c51b4e, .embedAuthorIcon_ad0b71 {
+.wrapper_c51b4e, .embedAuthorIcon_b0068a {
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -169,6 +169,6 @@
 .childWrapper_a6ce15, .circleIconButton_db6521 {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.mention_c10249 {
+.mention_edf32f {
 	background-color: var(--notice-color);
 }
