@@ -87,18 +87,18 @@
 }
 
 /* chat room */
-.voiceUser_d80634 {
+.voiceUser__07f91 {
     z-index: 1;
 }
-.voiceUser_d80634 .content_d80634 {
+.voiceUser__07f91 .content__07f91 {
     border-radius: 3px;
     transition: all 0.15s ease-in-out;
 }
-.voiceUser_d80634 .avatarSpeaking_d80634 {
+.voiceUser__07f91 .avatarSpeaking__07f91 {
     position: relative;
     transition: all 0.1s ease-in-out;
 }
-.voiceUser_d80634 .avatarSpeaking_d80634:after {
+.voiceUser__07f91 .avatarSpeaking__07f91:after {
     content: "";
     position: absolute;
     height: 1.7em;
@@ -111,64 +111,64 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-.voiceUser_d80634 .avatarSpeaking_d80634 {
+.voiceUser__07f91 .avatarSpeaking__07f91 {
     box-shadow: 0 0 0 2px var(--avatar-speaking-color), inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
-.voiceUser_d80634 .avatarSpeaking_d80634:after {
+.voiceUser__07f91 .avatarSpeaking__07f91:after {
     top: -2px;
     bottom: -2px;
     width: 150px;
 }
 
 /* chat text */
-.username_f9f2ca, .timestamp_f9f2ca *, .messageContent_f9f2ca *, .repliedMessage_f9f2ca, .grid_b0068a *, .editor_a552a6 * {
+.username_c19a55, .timestamp_c19a55 *, .messageContent_c19a55 *, .repliedMessage_c19a55, .grid__623de *, .editor__1b31f * {
 	text-shadow: 0 0 5px black, 0 0 5px black, 2px 0 5px black,  2px 0 5px black, 2px 0 5px black;
 }
 
 /* link color */
-.section_d7a21f a, .messageContent_f9f2ca a, .grid_b0068a a, .markup_f8f345 a, .fakeLink_cdb578 {
+.section_d7a21f a, .messageContent_c19a55 a, .grid__623de a, .markup__75297 a, .fakeLink_ada32f {
 	color: var(--url-color);
 }
 
 /* chat unread */
-.isUnread_c2654d {
+.isUnread__908e2 {
     border-color: var(--notice-color);
 }
-.isUnread_c2654d .unreadPill_c2654d {
+.isUnread__908e2 .unreadPill__908e2 {
 	background-color: var(--notice-color);
 }
-.isUnread_c2654d .unreadPillCapStroke_c2654d {
+.isUnread__908e2 .unreadPillCapStroke__908e2 {
 	color: var(--notice-color);
     fill: var(--notice-color);
 }
-.divider_c2654d {
+.divider__908e2 {
 	color: var(--notice-color);
 }
-.newMessagesBar_cf58b5, .jumpToPresentBar_cf58b5 {
+.newMessagesBar__0f481, .jumpToPresentBar__0f481 {
     background-color: var(--notice-color-rgba);
 }
 
 /* avatar */
-.avatar_d80634, .avatar_f9f2ca {
+.avatar__07f91, .avatar_c19a55 {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.wrapper_c51b4e, .embedAuthorIcon_b0068a {
+.wrapper__44b0c, .embedAuthorIcon__623de {
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 /* server list */
-.closedFolderIconWrapper_bc7085 {
+.closedFolderIconWrapper__48112 {
     background-color: var(--closed-folder-background-color);
 }
-.numberBadge_df8943 {
+.numberBadge__2b1f5 {
 	background-color: var(--notice-color) !important;
 }
-.iconBadge_c96c45 {
+.iconBadge__650eb {
 	background-color: var(--server-badge-icon);
 }
-.childWrapper_a6ce15, .circleIconButton_db6521 {
+.childWrapper_a6ce15, .circleIconButton__5bc7e {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
-.mention_edf32f {
+.mention__3b95d {
 	background-color: var(--notice-color);
 }
